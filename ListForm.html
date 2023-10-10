@@ -1,0 +1,21 @@
+<html>
+ <head>
+  <title>Lista</title>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <form class="form-lista" id="lista" name="lista" action="/List" method="get">
+   <p>Lista</p>
+   <ul>
+    <li>Jabłka</li>
+    <li>Marchewki</li>
+    <li>Pomidory</li>
+    <li>Banany</li>
+   </ul>
+   <p>Thymelea</p>
+   <ul>
+    <li th:each="ItemsITEMS : ${Items}"><span th:text="${ItemsITEMS}"></span></li>
+   </ul>
+  </form>
+ </body>
+</html>

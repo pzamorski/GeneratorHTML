@@ -1,0 +1,155 @@
+/* Ogólne style dla wszystkich elementów HTML */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Styl dla h1, nadaj własne style dla nagłówków */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Styl dla h2 */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styl dla linków */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Styl dla linków po najechaniu myszką */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styl dla przycisków */
+button, input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styl dla list (ul, ol) */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Styl dla listy (li) */
+li {
+  margin-bottom: 5px;
+}
+
+/* Styl dla tabeli */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Styl dla komórek tabeli */
+td, th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styl dla formularzy */
+form {
+  margin: 10px 0;
+}
+
+/* Styl dla inputów tekstowych */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Dodatkowe style */
+
+/* Styl dla paragrafów */
+p {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Styl dla nagłówków sekcji (h3, h4, h5, h6) */
+h3, h4, h5, h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Styl dla divów */
+div {
+  margin: 10px 0;
+}
+
+/* Styl dla obrazków */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styl dla przycisków nawigacyjnych */
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* Styl dla sekcji strony */
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styl dla stopki */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Styl dla elementów aktywnych (np. przycisków) */
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styl dla elementów wyłączonych (np. przycisków) */
+.disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
+
+/* Styl dla elementów ukrytych */
+.hidden {
+  display: none;
+}
+
+/* Styl dla elementów nagłówka strony */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
